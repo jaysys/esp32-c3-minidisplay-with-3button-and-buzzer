@@ -1,14 +1,10 @@
 /*
-
 idf_component_register(SRCS "esp32-c3-minidisplay-for-idf_py-env.cpp"
                     INCLUDE_DIRS "."
                     REQUIRES driver nixy4__u8g2
                     PRIV_REQUIRES esp_driver_gpio esp_driver_i2c esp_driver_spi driver
 )
-
 */
-
-
 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
